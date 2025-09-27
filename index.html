@@ -3,28 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Website</title>
+    <title>EduCenter - Online Courses for Classes 9-12</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Static Website</h1>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>EduCenter</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    
+
     <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a basic static website hosted on Render.</p>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Master Your Studies with Expert Online Courses</h1>
+                <p>Comprehensive online learning platform for Classes 9, 10, 11 & 12</p>
+                <a href="#courses" class="cta-button">Explore Courses</a>
+            </div>
         </section>
-        
-        <section>
-            <h2>Contact</h2>
-            <p>Feel free to reach out!</p>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2>Our Course Offerings</h2>
+                
+                <div class="course-section">
+                    <h3>Class 9 Courses</h3>
+                    <p>Build strong foundations in core subjects with our comprehensive Class 9 curriculum</p>
+                    <div class="course-card">
+                        <div class="card-header">
+                            <h4>Mathematics Foundation</h4>
+                            <span class="badge">Popular</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Master algebra, geometry, and number systems with interactive lessons and practice tests.</p>
+                            <ul>
+                                <li>✓ 40+ Video Lessons</li>
+                                <li>✓ Practice Worksheets</li>
+                                <li>✓ Mock Tests</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price">₹2,999</span>
+                            <button class="enroll-btn">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-section">
+                    <h3>Class 10 Courses</h3>
+                    <p>Prepare for your board exams with our expert-designed Class 10 courses</p>
+                    <div class="course-card">
+                        <div class="card-header">
+                            <h4>Board Exam Preparation</h4>
+                            <span class="badge trending">Trending</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Complete preparation for CBSE/ICSE Class 10 board exams across all subjects.</p>
+                            <ul>
+                                <li>✓ All Subject Coverage</li>
+                                <li>✓ Previous Year Papers</li>
+                                <li>✓ Live Doubt Sessions</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price">₹4,999</span>
+                            <button class="enroll-btn">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-section">
+                    <h3>Class 11 Courses</h3>
+                    <p>Start your higher secondary education with confidence through our specialized programs</p>
+                    <div class="course-card">
+                        <div class="card-header">
+                            <h4>Science Stream Mastery</h4>
+                            <span class="badge">New</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Physics, Chemistry, and Mathematics courses designed for JEE and NEET aspirants.</p>
+                            <ul>
+                                <li>✓ Concept Building</li>
+                                <li>✓ Problem Solving</li>
+                                <li>✓ Competitive Exam Prep</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price">₹6,999</span>
+                            <button class="enroll-btn">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-section">
+                    <h3>Class 12 Courses</h3>
+                    <p>Excel in your final year with our comprehensive board exam and entrance test preparation</p>
+                    <div class="course-card">
+                        <div class="card-header">
+                            <h4>Board + Entrance Combo</h4>
+                            <span class="badge premium">Premium</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Complete Class 12 preparation with focus on board exams and competitive entrance tests.</p>
+                            <ul>
+                                <li>✓ Board Exam Strategy</li>
+                                <li>✓ JEE/NEET Preparation</li>
+                                <li>✓ Career Guidance</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price">₹8,999</span>
+                            <button class="enroll-btn">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Why Choose EduCenter?</h2>
+                <div class="features">
+                    <div class="feature">
+                        <h4>Expert Teachers</h4>
+                        <p>Learn from qualified educators with years of teaching experience</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Interactive Learning</h4>
+                        <p>Engaging video lessons with animations and real-world examples</p>
+                    </div>
+                    <div class="feature">
+                        <h4>24/7 Support</h4>
+                        <p>Get your doubts cleared anytime with our dedicated support team</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have questions? We're here to help you succeed in your academic journey.</p>
+                <div class="contact-info">
+                    <p>📧 Email: info@educenter.com</p>
+                    <p>📞 Phone: +91 98765 43210</p>
+                    <p>🕒 Hours: Mon-Sat, 9 AM - 8 PM</p>
+                </div>
+            </div>
         </section>
     </main>
-    
+
     <footer>
-        <p>&copy; 2025 Static Website. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 EduCenter. All rights reserved. | Empowering students for academic success</p>
+        </div>
     </footer>
 </body>
 </html>
