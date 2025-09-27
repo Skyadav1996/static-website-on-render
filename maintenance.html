@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Maintenance - eVidyaKosh</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .maintenance-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+        }
+        
+        .maintenance-content {
+            max-width: 600px;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .maintenance-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .maintenance-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+        
+        .maintenance-message {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .back-link {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background-color: #ff5252;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+        
+        .contact-info {
+            margin-top: 2rem;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        @media (max-width: 768px) {
+            .maintenance-title {
+                font-size: 2rem;
+            }
+            
+            .maintenance-content {
+                padding: 2rem;
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="maintenance-container">
+        <div class="maintenance-content">
+            <div class="maintenance-icon">🔧</div>
+            <h1 class="maintenance-title">Website Under Maintenance</h1>
+            <p class="maintenance-message">
+                This website is under maintenance. We're working hard to improve your experience and will be back shortly.
+            </p>
+            <p class="maintenance-message">
+                Thank you for your patience!
+            </p>
+            <a href="index.html" class="back-link">← Back to Home</a>
+            
+            <div class="contact-info">
+                <p>Need immediate assistance? Contact us:</p>
+                <p>📧 Email: info@evidyakosh.com</p>
+                <p>📞 Phone: +91 98765 43210</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
